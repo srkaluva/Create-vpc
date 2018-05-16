@@ -1,0 +1,13 @@
+# group_vars/project.ansibled.yml
+# ---
+# specify VPC details and AWS credentials
+
+# general details about our VPC
+vpc_name: ansibled-vpc
+vpc_key: ansibled-key
+vpc_dns_zone: ansibled
+
+# credentials for AWS (no, they aren't real...)
+aws_region: us-west-1
+aws_access_key: xxxxxxxxxxxxxxxxxxxx
+aws_secret_key: xxxxxxxxxxxxxxxxxxxx 
